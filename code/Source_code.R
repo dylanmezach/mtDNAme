@@ -8,3 +8,9 @@
 rm(ls())
 
 # packages ---------------------------------------------------------------------
+
+
+
+
+# Store session info -----------------------------------------------------------
+writeLines(capture.output(sessionInfo()), "sessionInfo.txt")
